@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pip install --upgrade pip
-pip install -r requrements.txt
+pip install -r requirements.txt
