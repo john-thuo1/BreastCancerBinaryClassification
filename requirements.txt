@@ -58,7 +58,7 @@ scipy
 setuptools
 six
 smmap
-streamlit
+streamlit==1.20.0
 tensorboard
 tensorboard-data-server
 tensorboard-plugin-wit
