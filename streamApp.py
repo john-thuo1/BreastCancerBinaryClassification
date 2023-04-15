@@ -6,9 +6,9 @@ import cv2
 @st.cache_data
 def load_model():
     try:
-        with tf.device('/cpu:0'): 
-            model = tf.keras.models.load_model("./vgg16mammaryglandsClassifier.h5", compile=False)
-            return model 
+        
+        model = tf.keras.models.load_model("./vgg16mammaryglandsClassifier.h5", compile=False)
+        return model 
     except FileNotFoundError:
         st.error("Model File not found")
         return None
@@ -26,8 +26,7 @@ def model_pred(img):
         img = cv2.resize(img, (224,224))
         img = img / 255.0
         img = np.expand_dims(img, axis=0)
-        with tf.device('/cpu:0'):
-            pred = model.predict(img)
+        pred = model.predict(img)
         
         return pred[0][0]
         
