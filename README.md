@@ -3,6 +3,7 @@ The repository contains code implementation of a Breast Cancer Diagnostic Tool t
 VGG16 model (A pre-trained model), which is 16 layers deep and able to classify 1000 images of 1000 different categories with 92.7% accuracy.<br />
 More details on the architecture of VGG16 can be found here : [Everything you need to know about VGG16](https://medium.com/@mygreatlearning/everything-you-need-to-know-about-vgg16-7315defb5918) <br />
 
+The project has been hosted on Streamlit Community Cloud. Find the link below <br />
   **Live Project : [breast-cancer-tool.com](https://johnthuo1-breast-cancer-tool-streamapp-647vh4.streamlit.app/)** <br/>
  
  # Model Performance 
