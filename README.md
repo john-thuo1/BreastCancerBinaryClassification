@@ -21,6 +21,10 @@ Based on the confusion matrix provided, we can generate a summary of the results
 
 Overall, the model performed well, achieving a high accuracy, precision, and recall. However, it did make one false positive prediction, which is something to be aware of when interpreting the results.  <br />
   
+# **Testing the project**
+I have included a few images you can test with. However, you can use your own image. For now, try use breast cancer images. 
+In later modifications of the project, I will include a functionality to tell whether the image uploaded is breast cancer related or not. 
+
   # **Limitations of the Project:**
 1. The model was trained using more Benign cases than malignant. Hence on rare occasions, its predictions may be skewed towards benign.
 2. The data was small. The more the data used, the more efficient the model will be in predicting accurately. Hence the small train data also affected the accuracy of the model.
