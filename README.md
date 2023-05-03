@@ -22,7 +22,7 @@ Based on the confusion matrix provided, we can generate a summary of the results
 Overall, the model performed well, achieving a high accuracy, precision, and recall. However, it did make one false positive prediction, which is something to be aware of when interpreting the results.  <br />
   
 # **Testing the project**
-I have included a few images you can test with. However, you can use your own image. For now, try use breast cancer images. 
+I have included a few images you can test the application with in the Images directory. However, you can use your own images. For now, try using breast cancer images. 
 In later modifications of the project, I will include a functionality to tell whether the image uploaded is breast cancer related or not. 
 
   # **Limitations of the Project:**
