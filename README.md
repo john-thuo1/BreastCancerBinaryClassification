@@ -7,7 +7,8 @@ More details on the architecture of VGG16 can be found here : [Everything you ne
  
  # Model Performance 
  
- 
+ ![image](https://user-images.githubusercontent.com/108690517/236040775-4b0fda34-8ab7-431f-94f6-53b391a31300.png)
+
   
   
   # **Limitations of the Project:**
