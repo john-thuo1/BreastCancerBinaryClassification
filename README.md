@@ -25,7 +25,7 @@ In later modifications of the project, I will include a functionality to tell wh
 
   # **Limitations of the Project:**
 1. The model was trained using more Benign cases than malignant. Hence on rare occasions, its predictions may be skewed towards benign.
-2. The data was small. The more the data used, the more efficient the model will be in predicting accurately. Hence the small train data also affected the accuracy of the model.
+2. The data was small(1312 images). The more the data used, the more efficient the model will be in predicting accurately. Hence the small train data also affected the accuracy of the model.
   
 
   
