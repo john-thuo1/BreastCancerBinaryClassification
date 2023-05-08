@@ -7,7 +7,7 @@ import cv2
 def load_model():
     try:
         
-        model = tf.keras.models.load_model("./vgg16mammaryglandsClassifier.h5", compile=False)
+        model = tf.keras.models.load_model("./vgg19mammaryglandsClassifier.h5", compile=False)
         return model 
     except FileNotFoundError:
         st.error("Model File not found")
