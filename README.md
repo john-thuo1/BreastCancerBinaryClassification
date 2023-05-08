@@ -10,7 +10,7 @@ The project has been hosted on Streamlit Community Cloud. Find the link below <b
  # Model Performance 
  The model I am using is too big(140mb) and I have already exhausted my Github data quota. If you want to try it on your local machine,
  download the model from this [link](https://drive.google.com/file/d/1-T5H_8jIqT0VTvQZYLAWucx3gRcapny_/view?usp=sharing) <br />
- I have modified the project to use the model I trained from scratch(trainedModel.h5) instead of the pre-trained  model(vgg19breastCancerClassifier.h5).
+ I have modified the project to use the model I trained from scratch(trainedModel.h5) instead of the pre-trained  model(vgg19breastCancerClassifier.h5) due to the github lfs data quota limit.
  
   ![image](https://user-images.githubusercontent.com/108690517/236889935-f8a160ec-2379-4730-85dd-838200d36066.png)
 
