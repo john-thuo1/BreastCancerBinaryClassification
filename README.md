@@ -13,11 +13,6 @@ The project has been hosted on Streamlit Community Cloud. Find the link below <b
  I have modified the project to use the model I trained from scratch(trainedModel.h5) instead of the pre-trained  model(vgg19breastCancerClassifier.h5) due to the github lfs data quota limit.
  
   ![image](https://user-images.githubusercontent.com/108690517/236889935-f8a160ec-2379-4730-85dd-838200d36066.png)
-
-
-Based on the confusion matrix provided, we can generate a summary of the results as follows:  <br />
-
-The given confusion matrix shows the performance of a binary classification model for tumor detection. Out of 32 cases, 20 benign tumors were correctly identified as benign (true negative), while 10 malignant tumors were correctly identified as malignant (true positive). There were 2 cases of false negatives where malignant tumors were misclassified as benign, but no false positives where benign tumors were misclassified as malignant. <br />
   
 # **Testing the project**
 I have included a few images you can test the application with in the Images directory. However, you can use your own images. For now, try using breast cancer images. 
